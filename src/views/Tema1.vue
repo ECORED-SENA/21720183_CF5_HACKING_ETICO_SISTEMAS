@@ -48,10 +48,39 @@
         img(src='@/assets/curso/tema1/img04.png')
 
     .row.justify-content-center
-      .col-md-10.col-lg-4.mb-4.mb-lg-0            
-        img(src='@/assets/curso/tema1/img07.png')
-        h5 Confidencialidad:
-        p.mb-0 La información sólo puede ser accedida por la persona a la que está destinada y ninguna otra persona puede acceder a ella.
+      .col-lg-3.col-md-6.col-6.mb-3.p-3
+        .row.BGIMG07
+          .col-12.p-0      
+            img(src='@/assets/curso/tema1/img08.png')
+          .col-12.p-5          
+            h5.tex-center Confidencialidad:
+            p.tex-center La información sólo puede ser accedida por la persona a la que está destinada y ninguna otra persona puede acceder a ella.
+   
+      .col-lg-3.col-md-6.col-6.mb-3.p-3
+        .row.BGIMG07
+          .col-12.p-0      
+            img(src='@/assets/curso/tema1/img09.png')
+          .col-12.px-4.py-5            
+            h5.tex-center Integridad:
+            p.tex-center La información no puede ser modificada en el almacenamiento o en la transición entre el emisor y el receptor previsto sin que se detecte cualquier adición a la información.
+    
+      .col-lg-3.col-md-6.col-6.mb-3.p-3
+        .row.BGIMG07
+          .col-12.p-0      
+            img(src='@/assets/curso/tema1/img10.png')
+          .col-12.p-5          
+            h5.tex-center No repudio:
+            p.tex-center El creador/ remitente de la información no puede negar su intención de enviar la información en una etapa posterior.
+    
+      .col-lg-3.col-md-6.col-6.mb-3.p-3
+        .row.BGIMG07
+          .col-12.p-0      
+            img(src='@/assets/curso/tema1/img11.png')
+          .col-12.p-5           
+            h5.tex-center Autenticación:
+            p.tex-center Se confirma la identidad del emisor y del receptor, así como el destino/origen de la información se confirma.
+            <br>
+
 
     .row.align-items-center.mb-5
       .col-lg-2.col-md-6.col-6(data-aos="fade-right").mb-5
@@ -136,7 +165,7 @@
     .col-lg-12.mb-5      
       p Ahora aborde algunos estándares y algoritmos:
     
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="fade-right")
+    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--blanco")(data-aos="fade-right")
       .row(titulo="Estándar de cifrado avanzado (AES)")
         .col-md-12.col-11.mb-4.mb-md-0
           p El cifrado AES fue establecido por el Instituto Nacional de Estándares y Tecnología de los Estados Unidos (NIST) en 2001 y su objetivo es ofrecer una especificación para la encriptación de datos electrónicos.
@@ -275,7 +304,7 @@
     separador
     #t_1_4.titulo-segundo.color-acento-contenido
       h2 1.4	Firmas digitales 
-  .container.BGIMG05.px-4.pt-4.pt-md-4.px-md-5
+  .container.BGIMG05.px-4.pt-5.pt-md-5.px-md-5
       
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-8
