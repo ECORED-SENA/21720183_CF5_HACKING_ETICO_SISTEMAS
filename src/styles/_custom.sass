@@ -12,6 +12,13 @@
 .BG03
   background-color: #E7DEFC
 
+.BG04
+  background-color: #FFE9EF
+
+.BG14
+  background-color: #E5FFFD
+  border-radius: 25px
+
 .BG11
   background-color: #fff
   border-top-left-radius: 20px
@@ -49,45 +56,39 @@
   background-repeat: no-repeat
   background-position: center   
 
-
-.TFcontainer
-  position: relative
-  width: 100%
-
-.TFimage
-  display: block
-  width: 100%
-  height: 350px
-  object-fit: cover !important
-  border-radius: 6px 6px 0 0
-
-.TFoverlay
-  position: absolute
-  bottom: 0
-  left: 0
-  right: 0
-  border-radius: 6px 6px 0 0
-  overflow: hidden
-  width: 100%
-  height: 50px
-  transition: .5s ease
-
-  &--01
-    @extend .TFoverlay
-    background-color: transparentize($color-primario, 0.2)
-  
-  &--02
-    @extend .TFoverlay
-    background-color: transparentize($color-acento-contenido, 0.2)
-
-.TFcontainer:hover .TFoverlay
-  height: 100%
-
-@media screen and (max-width: 991px)
-  .TFimage
-    height: 200px
+.BGIMG05
+  background-image: url("../assets/curso/tema1/img42.png")
+  background-size: cover 
+  background-repeat: no-repeat
+  background-position: center   
 
 .tarjetas1
   .tarjeta-slide  
     background-image: url("../assets/curso/tema1/img07.png")
+
+ol.lista-candado
+  list-style-image: url("../assets/curso/tema1/img28.png")    
+
+.tarjeta-avatar-b__img
+  min-width: 11%
+  max-width: 11%
+
+.tarjeta-avatar-b .tarjeta
+  height: 98px
+
+.bloque-texto-g__texto
+  width: 70%
+
+@media (max-width: 767px)
+  .bloque-texto-g__texto 
+    right: 50px
+
+.mtN01
+  margin-top: -100px
+
+.mtO01
+  margin-top: 80px
+
+.br01
+  border-radius: 16px
 
