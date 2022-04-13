@@ -110,7 +110,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2	Tipos y cifrados
+      h2 1.2 Tipos y cifrados
     p A continuación, estudiará los tipos de criptografía.
 
     .BGIMG03.mb-5 
@@ -250,13 +250,23 @@
               h3 Herramienta de criptografía: <em>Advanced Encryption Package</em>
           .col-lg-8
             img(src='@/assets/curso/tema1/img38.svg')
-          .col-lg-3
+          .col-lg-4
+            a.anexo.mb-4.mb-lg-0(href="http://www.aeppro.com" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+              p <b>Enlace web.</b> Herramienta de criptografía: Advanced Encryption Package
         .row.mb-5.p-5
           .col-lg-5
             h3 Herramienta de cifrado: Enigmail
           .col-lg-8
             img(src='@/assets/curso/tema1/img39.svg')
-          .col-lg-5
+          .col-lg-4
+            a.anexo.mb-4.mb-lg-0(href="https://www.enigmail.net/index.php/en/" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-link.svg")
+              .anexo__texto
+              p <b>Enlace web.</b> Herramienta de cifrado: Enigmail
     .container.BG13.px-4.pt-4.pt-md-4.px-md-5
       .row.justify-content-center
         .col-lg-10
@@ -283,7 +293,7 @@
             figure.mb-5(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img41.svg') 
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
-      .row.row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
           p El destinatario puede descifrar el <em>hash</em> codificado con el certificado de clave pública del remitente. Un hash criptográfico se genera de nuevo en el extremo del destinatario.
 
@@ -347,7 +357,47 @@
               h3 Herramienta de cifrado de datos: BitLocker
               p BitLocker es una característica de cifrado integrada en equipos que ejecutan Windows 10 Pro; si ejecuta Windows 10 Home no podrá usar BitLocker. Crea un entorno seguro para sus datos sin necesidad de realizar ningún esfuerzo adicional por su parte. De hecho, una vez que se configura.
             .col-lg-7
-              img(src='@/assets/curso/tema1/img48.svg')   
+              img(src='@/assets/curso/tema1/img48.svg')  
+      .row.justify-content-center.align-items-center.mb-5  
+        .col-lg-12-mb-5
+          h3  Aquí están otros enlaces con algunas herramientas de criptoanálisis 
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-2
+          img(src='@/assets/curso/tema1/img50.svg')
+        .col-lg-3
+          a.anexo.mb-4.mb-lg-0(href="https://sourceforge.net/projects/cryptanalysisto/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> Cryptanalysis Tools 
+          a.anexo.mb-4.mb-lg-0(href="http://ganzua.sourceforge.net/es/index.html" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> Ganzua
+        .col-lg-3
+          a.anexo.mb-4.mb-lg-0(href="http://crank.sourceforge.net/downloads.html" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> Crank
+          a.anexo.mb-4.mb-lg-0(href="http://alphapeeler.sourceforge.net/me/?page_id=16" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> AlphaPeeler
+        .col-lg-3
+          a.anexo.mb-4.mb-lg-0(href="https://sourceforge.net/projects/evercrack/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> EverCrack
+          a.anexo.mb-4.mb-lg-0(href="http://www.addario.org/cryptobench/" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-link.svg")
+            .anexo__texto
+            p <b>Enlace web.</b> CryptoBench
+
   </template>
 
 <script>
