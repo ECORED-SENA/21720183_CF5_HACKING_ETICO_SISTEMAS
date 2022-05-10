@@ -28,22 +28,22 @@
         
         .cajon.color-primario
           .row.align-items-center
-            .col-7.pt-4.ms-4
+            .col-lg-7.col.md-6.pt-4.ms-4
               p <b>¿Cuál es el problema?</b> Si el mensaje es interceptado, un tercero tiene todo lo necesario para descifrar y leer el mensaje. Para resolver este problema, los criptólogos diseñaron <b>el sistema asimétrico o de "clave pública"</b>; en este caso, cada usuario tiene dos claves: <b>una pública y otra privada</b>; los remitentes solicitan la clave pública de su destinatario, encriptan el mensaje y lo envían, cuando llega el mensaje, sólo la clave privada del destinatario lo descifra, lo que significa que el robo no sirve de nada sin la correspondiente 
-            .col-3
+            .col-lg-3.col.md-6
               img.ms-5(src='@/assets/curso/tema1/img02.png')
     
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.1 Conceptos y generalidades
+      h3 1.1 Conceptos y generalidades
     .col-lg-12  
       p.mb-4 La criptografía es la conversión de los datos en un código codificado que se descifra y se envía a través de una red privada o pública; se utiliza para proteger los mensajes de correo electrónico, información de tarjeta de crédito y datos corporativos.    
     .row.align-items-center.mb-3
       .col-lg-4(data-aos="fade-right")
         img(src='@/assets/curso/tema1/img03.png')
     .row.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7(data-aos="fade-right").mb-3
         p.mb-0 En la era actual de las computadoras, la criptografía suele asociarse con el proceso en el que un texto simple ordinario se convierte en texto cifrado, que es el texto hecho de tal manera que el receptor previsto del texto sólo puede decodificarlo y, por lo tanto, este proceso se conoce como cifrado. El proceso de conversión de un texto cifrado a texto plano se conoce como descifrado. Las características de la criptografía son las siguientes:
       .col-lg-5.p-0(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img04.png')
@@ -103,21 +103,21 @@
             p <b>La transposición y la sustitución</b> se realizan en cascada; por ejemplo, en un sistema de este tipo, denominado sistema de fraccionamiento, la sustitución se realiza primero a partir de símbolos en texto plano a múltiples símbolos en el texto cifrado, que luego se superpone a una transposición.
             p Todas las operaciones o etapas de la transformación de un mensaje se efectúan de conformidad con una regla definida por una clave secreta que solo conocen el emisor del mensaje y el receptor previsto.
             .cajon.color-acento-contenido.p-3
-             h3 TODAS LAS CIFRAS 
+             h4 TODAS LAS CIFRAS 
               p Implican una transposición o sustitución, o una combinación de estas dos operaciones matemáticas, es decir, cifras de productos. 
         .row.justify-content-center.align-items-center.p-3
-          .col-lg-6
+          .col-lg-6.mb-3
             img(src='@/assets/curso/tema1/img17.png')
           .col-lg-6
             .cajon.color-acento-contenido.p-3
-              h3 EN LOS SISTEMAS POR TRANSPOSICIÓN
+              h4 EN LOS SISTEMAS POR TRANSPOSICIÓN
               p Los elementos del texto simple (por ejemplo, una letra, una palabra o una cadena de símbolos) se reordenan sin que cambie la identidad de los elementos, 
-        .row.justify-content-center.align-items-center.p-5
-          .col-lg-6
+        .row.justify-content-center.align-items-center.p-3
+          .col-lg-6.mb-3
             img(src='@/assets/curso/tema1/img18.png')
           .col-lg-6
             .cajon.color-acento-contenido.p-3
-              h3 EN LOS SISTEMAS POR SUSTITUCIÓN
+              h4 EN LOS SISTEMAS POR SUSTITUCIÓN
               p Esos elementos se sustituyen por otros objetos o grupos de objetos sin que se modifique su secuencia, en los sistemas de cifrado de productos.
         
     .row.mb-5.justify-content-center(data-aos="fade-left")
@@ -131,7 +131,7 @@
 
     .row.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
-        p.mb-3 Se han utilizado comúnmente dispositivos o máquinas de cifrado para cifrar y descifrar mensajes. El primer dispositivo de cifrado parece haber sido empleado por los antiguos griegos alrededor del año 400 a.C. para las comunicaciones secretas entre los comandantes militares. Este dispositivo, llamado la guadaña, consistía en un bastón cónico alrededor del cual se envolvía en espiral un trozo de pergamino inscrito con el mensaje, cuando se desenvolvía, el pergamino llevaba un incomprensible juego de letras, pero cuando se envolvía alrededor de otro bastón de idénticas proporciones, el texto original reaparecía. 
+        p Se han utilizado comúnmente dispositivos o máquinas de cifrado para cifrar y descifrar mensajes. El primer dispositivo de cifrado parece haber sido empleado por los antiguos griegos alrededor del año 400 a.C. para las comunicaciones secretas entre los comandantes militares. Este dispositivo, llamado la guadaña, consistía en un bastón cónico alrededor del cual se envolvía en espiral un trozo de pergamino inscrito con el mensaje, cuando se desenvolvía, el pergamino llevaba un incomprensible juego de letras, pero cuando se envolvía alrededor de otro bastón de idénticas proporciones, el texto original reaparecía. 
         p.mb-0 Otros dispositivos simples conocidos como discos cifrados fueron utilizados por los gobiernos europeos para las comunicaciones diplomáticas a finales de 1400. Estos dispositivos consistían en dos círculos concéntricos giratorios, ambos con una secuencia de 26 letras; un disco se usaba para seleccionar las letras de texto plano, mientras que el otro se usaba para el componente de cifrado correspondiente.
       .col-lg-5.p-0(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img20.png') 
@@ -139,7 +139,7 @@
     separador
 
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.2 Tipos y cifrados
+      h3 1.2 Tipos y cifrados
     p A continuación, estudiará los tipos de criptografía.
 
     .BGIMG03.mb-5 
@@ -260,7 +260,7 @@
     separador
     
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.3	Herramientas criptográficas 
+      h3 1.3 Herramientas criptográficas 
       
     .row.justify-content-center.align-items-center
       .col-lg-10.col-md-10.col-10(data-aos="fade-right")
@@ -274,11 +274,11 @@
     .BGIMG03.mb-5 
       SlyderA(tipo="b")(data-aos="fade-right")
         .row.mb-5.p-5
-          .col-lg-5
-              h3 Herramienta de criptografía: <em>Advanced Encryption Package</em>
+          .col-lg-12-md-6
+            h4 Herramienta de criptografía: <em>Advanced Encryption Package</em>
           .col-lg-8
             img(src='@/assets/curso/tema1/img38.svg')
-          .col-lg-4
+          .col-lg-4.align-items-end
             a.anexo.mb-4.mb-lg-0(href="http://www.aeppro.com" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-link.svg")
@@ -286,7 +286,7 @@
               p <b>Enlace web.</b> Herramienta de criptografía: Advanced Encryption Package
         .row.mb-5.p-5
           .col-lg-5
-            h3 Herramienta de cifrado: Enigmail
+            h4 Herramienta de cifrado: Enigmail
           .col-lg-8
             img(src='@/assets/curso/tema1/img39.svg')
           .col-lg-4
@@ -302,7 +302,7 @@
 
     separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.4	Firmas digitales 
+      h3 1.4	Firmas digitales 
   .container.BGIMG05.px-4.pt-5.pt-md-5.px-md-5
       
       .row.justify-content-center.align-items-center.mb-5
@@ -316,8 +316,7 @@
             img(src="@/assets/curso/tema1/img40.png")
         .col-lg-9
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-              h5 Figura 5
-              p.mb-0 Clave pública
+              p.mb-0 <strong>Figura 5</strong> Clave pública
             figure.mb-5(data-aos="fade-right")
               img(src='@/assets/curso/tema1/img41.svg') 
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
@@ -329,22 +328,21 @@
 
   .container.BGIMG01.px-4.pt-4.pt-md-4.px-md-5
     .row.align-items-center
-      .col-lg-2.col-md-6.col-6(data-aos="fade-right").mb-5
+      .col-lg-2.col-md-6.col-6(data-aos="fade-right").mb-3
         img(src='@/assets/curso/tema1/img44.png')  
     .row.justify-content-center
       p SSL es el acrónimo de Secure Sockets Layer (capa de sockets seguros), la tecnología estándar para mantener segura una conexión a Internet, así como para proteger cualquier información confidencial que se envía entre dos sistemas e impedir que los delincuentes lean y modifiquen cualquier dato que se transfiera, incluida información que pudiera considerarse personal. Los dos sistemas pueden ser un servidor y un cliente (por ejemplo, un sitio web de compras y un navegador) o de servidor a servidor (por ejemplo, una aplicación con información que puede identificarse como personal o con datos de nóminas). 
-      .col-8
+      .col-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          h5 Figura 6
-          p.mb-0 Certificado SSL
+         p.mb-0 <strong>Figura 6</strong> Certificado SSL
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img43.svg')  
-      .col-8
+      .col-10
         p Esto lo lleva a cabo asegurándose de que todos los datos que se transfieren entre usuarios y sitios web o entre dos sistemas sean imposibles de leer. Utiliza algoritmos de cifrado para codificar los datos que se transmiten e impedir que los hackers los lean al enviarlos a través de la conexión. Esta información podría ser cualquier dato confidencial o personal, por ejemplo, números de tarjeta de crédito y otros datos bancarios, nombres y direcciones.
 
     separador
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-      h2 1.5	Herramientas de cifrado y criptoanálisis
+      h3 1.5	Herramientas de cifrado y criptoanálisis
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
       .col-lg-12
        p La encriptación de discos es una tecnología que protege la información convirtiéndola en un código ilegible que no puede ser descifrado fácilmente por personas no autorizadas. La encriptación de discos utiliza software o hardware de encriptación de discos para encriptar cada bit de datos que va en un disco o volumen de disco. Se utiliza para impedir el acceso no autorizado al almacenamiento de datos. Revise la siguiente figura:
@@ -376,19 +374,19 @@
         SlyderA(tipo="b")(data-aos="fade-right")
           .row.p-5
             .col-lg-5
-              h3 	Herramienta de cifrado de datos: VeraCrypt
+              h4 	Herramienta de cifrado de datos: VeraCrypt
               p VeraCrypt es una utilidad gratuita disponible en la fuente, que se utiliza para el cifrado sobre la marcha (OTFE). Puede crear un disco cifrado virtual dentro de un archivo o cifrar una partición o (en Windows) todo el dispositivo de almacenamiento con autenticación previa al arranque.
             .col-lg-7
               img(src='@/assets/curso/tema1/img49.svg')
           .row.p-5
             .col-lg-5
-              h3 Herramienta de cifrado de datos: BitLocker
+              h4 Herramienta de cifrado de datos: BitLocker
               p BitLocker es una característica de cifrado integrada en equipos que ejecutan Windows 10 Pro; si ejecuta Windows 10 Home no podrá usar BitLocker. Crea un entorno seguro para sus datos sin necesidad de realizar ningún esfuerzo adicional por su parte. De hecho, una vez que se configura.
             .col-lg-7
               img(src='@/assets/curso/tema1/img48.svg')  
       .row.justify-content-center.align-items-center.mb-5  
         .col-lg-12-mb-5
-          h3  Aquí están otros enlaces con algunas herramientas de criptoanálisis 
+          h4  Aquí están otros enlaces con algunas herramientas de criptoanálisis 
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-2
           img(src='@/assets/curso/tema1/img50.svg')

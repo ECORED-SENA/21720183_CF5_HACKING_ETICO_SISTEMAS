@@ -4,10 +4,10 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white S
-      h1 Síntesis
+      
   .container.BGIMG06.px-4.pt-4.pt-md-4.px-md-5
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-8.mb-5
         figure
           img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       
