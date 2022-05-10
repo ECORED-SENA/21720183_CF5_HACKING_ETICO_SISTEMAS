@@ -9,16 +9,16 @@
           i.fas.fa-info
       h1 Introducción
 
-    .row.mb-5(data-aos="fade-right")
-      .col-lg-7.mb-3.px-4
-        p.mb-3 Se le invita a revisar la introducción de este material de formación en el siguiente recurso:
+    .row(data-aos="fade-right")
+      .col-lg-12
+        p Se le invita a revisar la introducción de este material de formación en el siguiente recurso:
 
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-10        
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-            
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/-rq4_7xgFLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          
 
 </template>
 

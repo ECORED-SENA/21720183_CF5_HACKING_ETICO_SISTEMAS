@@ -5,7 +5,7 @@
   )
     .row.banner-principal__row.position-relative.justify-content-center.align-items-center
       .col-1
-      .col-5.py-5.banner-principal__info
+      .col-6.py-5.banner-principal__info
         .banner-principal__componente
           h1.mb-0(style="font-size: 2.63em" v-html="globalData.componenteFormativo")
         .col-lg-12
@@ -15,7 +15,7 @@
           router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
             span.me-1 Ver más
             i.fas.fa-angle-right
-      .col-1
+      
       .col-4.d-none.d-lg-block.px-0.banner-principal__img
         img.w-100(:src="globalData.imagenBannerPrincipal")
         .imagen_flotante_1: img(src="@/assets/curso/bugs.svg")

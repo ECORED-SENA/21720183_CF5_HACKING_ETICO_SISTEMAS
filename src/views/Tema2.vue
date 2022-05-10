@@ -7,10 +7,10 @@
         span.text-white 2
       h1 Reportes
   .container.BGIMG03.px-4.pt-4.pt-md-4.px-md-5
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right") 
         .col-lg-6
           figure.m-0
-            img(src="@/assets/curso/tema2/img01.png")
+            img(src="@/assets/curso/tema2/img01.png")(data-aos="fade-right") 
         .col-lg-6
           p.mb-4 En las pruebas de penetración, la redacción de informes es una tarea exhaustiva que incluye la metodología, los procedimientos, la explicación adecuada del contenido y el diseño del informe, un ejemplo detallado del informe de la prueba y la experiencia personal del probador. Una vez preparado el informe, se comparte entre el personal directivo superior y el equipo técnico de las organizaciones objetivo; si en el futuro surgiera algún tipo de necesidad de este tipo, este informe se utiliza como referencia.
           div.p-4.mb-4(style="background-color: white") 
@@ -19,33 +19,33 @@
 
   separador
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5    
-    #t_2_1.titulo-segundo.color-acento-contenido
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right") 
       h2 2.1	Tipos de reporte
  
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p.mb-0 La planificación del informe comienza con los objetivos, que ayudan a los lectores a entender los puntos principales de las pruebas de penetración, esta parte describe por qué se realizan las pruebas, cuáles son los beneficios de las pruebas, con bolígrafo, etc. En segundo lugar, la planificación del informe también incluye el tiempo empleado en las pruebas, las cuales son consignadas en diferentes tipos de reportes que se deben entregar, los cuales se clasifican en:
       .col-lg-3.p-0(data-aos="fade-left").mb-5
-        img(src='@/assets/curso/tema2/img02.png')
+        img(src='@/assets/curso/tema2/img02.png')(data-aos="fade-right") 
       .col-lg-10
-        img(src='@/assets/curso/tema2/img03.svg')
+        img(src='@/assets/curso/tema2/img03.svg')(data-aos="fade-right") 
 
     separador
 
-    #t_2_2.titulo-segundo.color-acento-contenido
+    #t_2_2.titulo-segundo.color-acento-contenido(data-aos="fade-right") 
       h2 2.2	Elementos de un reporte
  
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12(data-aos="fade-right")
         p.mb-0 Los principales elementos de la redacción del informe son:
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right") 
         .col-lg-10      
           .info1.p-0.mb-4
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/img04.svg')              
+                  img(src='@/assets/curso/tema2/img04.svg')(data-aos="fade-right")              
               .tarjeta.p-4(x="8.94%" y="28.5%" numero="")               
                 p.mb-0 Describe el propósito general y los beneficios de las pruebas, con bolígrafo.
 
