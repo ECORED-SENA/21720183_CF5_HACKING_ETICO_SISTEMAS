@@ -5,14 +5,14 @@
     
     .row.mb-5.justify-content-center.align-items-center.align-items-lg-stretch
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
-        .tarjeta.tarjeta--azul.h-100.d-flex.align-items-center
+        .tarjeta.h-100.d-flex.align-items-center
           figure
             img(src="@/assets/template/sopa-letras-crucigrama.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Crucigrama de las técnicas de la criptografía
         p.mb-4 Repasar el contenido de los conceptos y generalidades de las técnicas de la criptografía y el cifrado de información para buenas prácticas de la seguridad informática y redes
-        .tarjeta.tarjeta--azul.p-3
+        .tarjeta.bgr.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
               p.fw-bold.mb-0 Crucigrama

@@ -8,7 +8,7 @@
       h1 Reportes
   .container.BGIMG03.px-4.pt-4.pt-md-4.px-md-5
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right") 
-        .col-lg-6
+        .col-lg-6.mb-3
           figure.m-0
             img(src="@/assets/curso/tema2/img01.png")(data-aos="fade-right") 
         .col-lg-6
@@ -69,17 +69,17 @@
 
     .row.align-items-center.mb-4
       
-      .col-lg-6(data-aos="fade-right")
+      .col-lg-7(data-aos="fade-right").mb-3
         LineaTiempoD.color-acento-botones
-          p.mb-5(numero="1" titulo="Resumen ejecutivo del proyecto:") El informe habla de la información del proyecto, sobre el propósito, objetivo y meta del proceso del test; resume el tema, los métodos de análisis, los resultados, las conclusiones, las recomendaciones y las limitaciones del informe. Aunque hay mucho que explicar sobre todo el proceso, el <em>pentester o hacker</em> ético debe mantenerlo conciso y preciso."SENA12345".
+          p(numero="1" titulo="Resumen ejecutivo del proyecto:") El informe habla de la información del proyecto, sobre el propósito, objetivo y meta del proceso del test; resume el tema, los métodos de análisis, los resultados, las conclusiones, las recomendaciones y las limitaciones del informe. Aunque hay mucho que explicar sobre todo el proceso, el <em>pentester o hacker</em> ético debe mantenerlo conciso y preciso."SENA12345".
           p(numero="2" titulo="Detalles del proyecto:") En esta sección, el <em>pentester</em>, o hacker ético, describe el enfoque del proyecto, el proceso que utilizó y el alcance definido al inicio de la propuesta; detalla para qué ha sido contratado el <em>pentester</em> y establece las "reglas de combate", por ejemplo, qué es lo que probará, qué hará cuando lo haga, qué precauciones tomará, cómo se juzgará el éxito, a quién informará, etc.
           
-          p.mb-5(numero="3" titulo="Información de la empresa:") El informe también explica detalles de la organización, el tipo de negocio, los clientes a los que se dirige, el alcance del negocio y otra información legítima; incluye detalles de los miembros del equipo involucrados, sus calificaciones, funciones de trabajo, responsabilidades, etc. Gran parte de esto será opcional, ya que caerá en la información de acceso público. Sin embargo, algunos pueden ser incluidos, especialmente si esa información tiene que ver con el descubrimiento de vulnerabilidades posteriores que son explotadas posteriormente.
+          p(numero="3" titulo="Información de la empresa:") El informe también explica detalles de la organización, el tipo de negocio, los clientes a los que se dirige, el alcance del negocio y otra información legítima; incluye detalles de los miembros del equipo involucrados, sus calificaciones, funciones de trabajo, responsabilidades, etc. Gran parte de esto será opcional, ya que caerá en la información de acceso público. Sin embargo, algunos pueden ser incluidos, especialmente si esa información tiene que ver con el descubrimiento de vulnerabilidades posteriores que son explotadas posteriormente.
           
-          p.mb-5(numero="4" titulo="Enumeración de los riesgos en función de la gravedad:") Para hacer un informe estructurado, enumere los hallazgos con base en su gravedad, se debe dar prioridad a las vulnerabilidades de alto riesgo y enumerarlas arriba, seguidas de los hallazgos de bajo riesgo.
+          p(numero="4" titulo="Enumeración de los riesgos en función de la gravedad:") Para hacer un informe estructurado, enumere los hallazgos con base en su gravedad, se debe dar prioridad a las vulnerabilidades de alto riesgo y enumerarlas arriba, seguidas de los hallazgos de bajo riesgo.
           
-          p.mb-5(numero="5" titulo="Descargo de responsabilidad: ") Una liberación de responsabilidades es una parte muy importante de un informe. Al ser un tester, es posible que enumere las vulnerabilidades, explique sus consecuencias y recomiende su mitigación, en el ámbito dado, las herramientas y los factores externos definidos; estas consecuencias pueden resultar en caso de que cambie alguno de los factores influyentes; una cláusula de exención de responsabilidad al final del informe resume la responsabilidad y define los límites de la prueba de penetración.
-      .col-lg-5.col-md-6.col-6(data-aos="fade-left")
+          p(numero="5" titulo="Descargo de responsabilidad: ") Una liberación de responsabilidades es una parte muy importante de un informe. Al ser un tester, es posible que enumere las vulnerabilidades, explique sus consecuencias y recomiende su mitigación, en el ámbito dado, las herramientas y los factores externos definidos; estas consecuencias pueden resultar en caso de que cambie alguno de los factores influyentes; una cláusula de exención de responsabilidad al final del informe resume la responsabilidad y define los límites de la prueba de penetración.
+      .col-lg-5.col-md-6.col-12(data-aos="fade-left")
         img(src='@/assets/curso/tema2/img06.svg')      
 
       

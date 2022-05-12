@@ -7,6 +7,22 @@
     left: 0
     right: 66%
     bottom: 50%
+
+.align-items-end
+  display: flex
+  align-items: flex-end
+  flex-direction: row
+.justify-center
+  display: flex
+  justify-content: center
+  flex-direction: row
+
+.linea-tiempo-d__item__content__slot
+  @media screen and ( max-width: 420px  )
+    margin-top: 1rem
+
+.img200
+  max-width: 200px
   
 
 .cajon.color-primario
@@ -92,16 +108,26 @@ ol.lista-candado
 .tarjeta-avatar-b__img
   min-width: 11%
   max-width: 11%
+  @media screen and ( max-width: 420px  )
+    min-width: 34%
+    max-width: 34%
+    align-items: start
 
 .tarjeta-avatar-b .tarjeta
   height: 98px
+  @media screen and ( max-width: 420px  )
+    height: 100%
+    margin-left: -14%
 
 .bloque-texto-g__texto
   width: 70%
-
-@media (max-width: 767px)
-  .bloque-texto-g__texto 
-    right: 50px
+  @media screen and ( max-width: 420px  )
+    width: 100%
+    
+.bloque-texto-g__texto 
+  right: 50px
+  @media (max-width: 420px) 
+    right: 0
 
 .mtN01
   margin-top: -100px
@@ -112,11 +138,19 @@ ol.lista-candado
 .br01
   border-radius: 16px
 
+.bgr
+  background-color: #D2B7FF
+  border-radius: 20px
+
 .info1
   .img-infografica__item__dot:before
     background-color: transparent !important
   .tarjeta    
     background-color: #F6F6F6
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/interno.svg") !important
+  background-repeat: no-repeat
+  background-color: #FFC664 !important
 
 
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
@@ -134,18 +168,32 @@ ol.lista-candado
 .w-50
   width: 63% !important
 
-.linea-tiempo-d.color-acento-botones .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
-  background-color: #5C379B
-  color: white
-  
-.linea-tiempo-d__item__content__slot
-  background-color: #E7DEFC
- 
-.linea-tiempo-d__item__content__title
-  background-color: #F6F6F6
- 
-.linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
-  background-color: #E7DEFC
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #5C379B !important
+      color: white
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #E7DEFC
 
-.LineaTiempoD.color-acento-botones
-  border-radius: 16px
+/// non selected
+.linea-tiempo-d__item.row
+  .col-auto.linea-tiempo-d__item__col-number
+    .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+    .linea-tiempo-d__item__dots:after
+      border-left: 4px dotted #F6F6F6 !important
+  .col
+    .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+      background-color: #F6F6F6
+
+
+.linea-tiempo-d__item__content__title
+  font-size: 20px !important
+  @media screen and ( max-width: 420px  )
+    font-size: 16px !important   
+.linea-tiempo-d__item__number
+  font-size: 24px !important
+  @media screen and ( max-width: 420px  )
+    font-size: 16px !important 
