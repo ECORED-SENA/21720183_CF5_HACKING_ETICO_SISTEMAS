@@ -103,28 +103,28 @@
             p <b>La transposición y la sustitución</b> se realizan en cascada; por ejemplo, en un sistema de este tipo, denominado sistema de fraccionamiento, la sustitución se realiza primero a partir de símbolos en texto plano a múltiples símbolos en el texto cifrado, que luego se superpone a una transposición.
             p Todas las operaciones o etapas de la transformación de un mensaje se efectúan de conformidad con una regla definida por una clave secreta que solo conocen el emisor del mensaje y el receptor previsto.
             .cajon.color-acento-contenido.p-3
-             h4 TODAS LAS CIFRAS 
+             h5 TODAS LAS CIFRAS 
               p Implican una transposición o sustitución, o una combinación de estas dos operaciones matemáticas, es decir, cifras de productos. 
         .row.justify-content-center.align-items-center.p-3
           .col-lg-6.mb-3
             img(src='@/assets/curso/tema1/img17.png')
           .col-lg-6
             .cajon.color-acento-contenido.p-3
-              h4 EN LOS SISTEMAS POR TRANSPOSICIÓN
+              h5 EN LOS SISTEMAS POR TRANSPOSICIÓN
               p Los elementos del texto simple (por ejemplo, una letra, una palabra o una cadena de símbolos) se reordenan sin que cambie la identidad de los elementos, 
         .row.justify-content-center.align-items-center.p-3
           .col-lg-6.mb-3
             img(src='@/assets/curso/tema1/img18.png')
           .col-lg-6
             .cajon.color-acento-contenido.p-3
-              h4 EN LOS SISTEMAS POR SUSTITUCIÓN
+              h5 EN LOS SISTEMAS POR SUSTITUCIÓN
               p Esos elementos se sustituyen por otros objetos o grupos de objetos sin que se modifique su secuencia, en los sistemas de cifrado de productos.
         
     .row.mb-5.justify-content-center(data-aos="fade-left")
       p Se conoce como cifrado:
       .col-lg-10  
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 <strong>Figura 2</strong> Tipos de cifrado
+          p.mb-0 <strong>Figura 3</strong> Tipos de cifrado
           
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.svg') 
@@ -349,7 +349,7 @@
       .col-lg-12
        p La encriptación de discos es una tecnología que protege la información convirtiéndola en un código ilegible que no puede ser descifrado fácilmente por personas no autorizadas. La encriptación de discos utiliza software o hardware de encriptación de discos para encriptar cada bit de datos que va en un disco o volumen de disco. Se utiliza para impedir el acceso no autorizado al almacenamiento de datos. Revise la siguiente figura:
 
-      .row.mb-5(data-aos="fade-right") 
+      .row(data-aos="fade-right") 
         .col-md-4(data-aos="fade-left")
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-4.mtN01
@@ -369,7 +369,7 @@
           h4.text-center.mb-3 Protección       
           p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: DVD, Copias de seguridad, Blueray
       .row 
-        .col-lg-12.mb-5
+        .col-lg-12
           p La expresión cifrado de disco completo (FDE) significa que todo lo que hay en el disco está cifrado, pero el registro de arranque maestro (MBR), o un área similar de un disco de arranque, con el código que inicia la secuencia de carga del sistema operativo, no está cifrado. Algunos sistemas de encriptación de disco completo basados en hardware pueden realmente encriptar un disco de arranque completo, incluyendo el MBR.
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5  
       .BGIMG03.mb-5   
