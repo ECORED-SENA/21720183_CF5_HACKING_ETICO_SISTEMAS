@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span.text-white 2
       h1 Reportes
-  .container.BGIMG02.px-4.pt-4.pt-md-4.px-md-5
+    .bg_grad-01.px-4.pt-4.pt-md-4.px-md-5
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right") 
         .col-lg-6.mb-3
           figure.m-0

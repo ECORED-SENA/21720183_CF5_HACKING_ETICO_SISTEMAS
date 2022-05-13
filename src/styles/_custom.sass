@@ -97,7 +97,22 @@
   background-image: url("../assets/curso/tema1/img05.png")
   background-size: cover 
   background-repeat: no-repeat
-  background-position: center   
+  background-position: center  
+
+.bg_grad-01
+  position: relative
+  .row, p, .cajon, .slyder-f
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0 -3rem
+    top: 0
+    left: 0
+    width: calc( 100% + 6rem)
+    height: calc( 100% + 3rem)
+    background-image: url("../assets/curso/tema2/fondo.svg")
+    background-repeat: no-repeat 
 
 .tarjetas1
   .tarjeta-slide  
