@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span.text-white 1
-      h1 Análisis de vulnerabilidades
+      h1 Criptografía
 
     .row.justify-content-center
       .col-lg-12(data-aos="fade-right")
@@ -29,7 +29,7 @@
         .cajon.color-primario
           .row.align-items-center.p-4
             .col-12.col-lg-8
-              p.mb-0 <b>¿Cuál es el problema?</b> Si el mensaje es interceptado, un tercero tiene todo lo necesario para descifrar y leer el mensaje. Para resolver este problema, los criptólogos diseñaron <b>el sistema asimétrico o de "clave pública"</b>; en este caso, cada usuario tiene dos claves: <b>una pública y otra privada</b>; los remitentes solicitan la clave pública de su destinatario, encriptan el mensaje y lo envían, cuando llega el mensaje, sólo la clave privada del destinatario lo descifra, lo que significa que el robo no sirve de nada sin la correspondiente 
+              p.mb-0 <b>¿Cuál es el problema?</b> Si el mensaje es interceptado, un tercero tiene todo lo necesario para descifrar y leer el mensaje. Para resolver este problema, los criptólogos diseñaron <b>el sistema asimétrico o de "clave pública"</b>; en este caso, cada usuario tiene dos claves: <b>una pública y otra privada</b>; los remitentes solicitan la clave pública de su destinatario, encriptan el mensaje y lo envían, cuando llega el mensaje, solo la clave privada del destinatario lo descifra, lo que significa que el robo no sirve de nada sin la correspondiente.
             .col-12.col-lg-4
               img(src='@/assets/curso/tema1/img02.png')
     
@@ -44,7 +44,7 @@
         img(src='@/assets/curso/tema1/img03.png')
     .row.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right").mb-3
-        p.mb-0 En la era actual de las computadoras, la criptografía suele asociarse con el proceso en el que un texto simple ordinario se convierte en texto cifrado, que es el texto hecho de tal manera que el receptor previsto del texto sólo puede decodificarlo y, por lo tanto, este proceso se conoce como cifrado. El proceso de conversión de un texto cifrado a texto plano se conoce como descifrado. Las características de la criptografía son las siguientes:
+        p.mb-0 En la era actual de las computadoras, la criptografía suele asociarse con el proceso en el que un texto simple ordinario se convierte en texto cifrado, que es el texto hecho de tal manera que el receptor previsto del texto solo puede decodificarlo y, por lo tanto, este proceso se conoce como cifrado. El proceso de conversión de un texto cifrado a texto plano se conoce como descifrado. Las características de la criptografía son las siguientes:
       .col-lg-5.p-0(data-aos="fade-left")
         img(src='@/assets/curso/tema1/img04.png')
 
@@ -54,15 +54,15 @@
           .col-12.p-0      
             img(src='@/assets/curso/tema1/img08.png')(data-aos="fade-right")
           .col-12.p-5          
-            h5.tex-center Confidencialidad:
-            p.tex-center La información sólo puede ser accedida por la persona a la que está destinada y ninguna otra persona puede acceder a ella.
+            h5.tex-center Confidencialidad
+            p.tex-center La información solo puede ser accedida por la persona a la que está destinada y ninguna otra persona puede acceder a ella.
    
       .col-12.col-lg-3.col-md-6.col-6.mb-3.p-3
         .row.BGIMG07.h-100
           .col-12.p-0(data-aos="fade-right")     
             img(src='@/assets/curso/tema1/img09.png')(data-aos="fade-right")
           .col-12.px-4.py-5            
-            h5.tex-center Integridad:
+            h5.tex-center Integridad
             p.tex-center La información no puede ser modificada en el almacenamiento o en la transición entre el emisor y el receptor previsto sin que se detecte cualquier adición a la información.
     
       .col-12.col-lg-3.col-md-6.col-6.mb-3.p-3
@@ -70,7 +70,7 @@
           .col-12.p-0(data-aos="fade-right")     
             img(src='@/assets/curso/tema1/img10.png')(data-aos="fade-right")
           .col-12.p-5          
-            h5.tex-center No repudio:
+            h5.tex-center No repudio
             p.tex-center El creador/ remitente de la información no puede negar su intención de enviar la información en una etapa posterior.
     
       .col-12.col-lg-3.col-md-6.col-6.mb-3.p-3
@@ -78,7 +78,7 @@
           .col-12.p-0(data-aos="fade-right")      
             img(src='@/assets/curso/tema1/img11.png')(data-aos="fade-right")
           .col-12.p-5           
-            h5.tex-center Autenticación:
+            h5.tex-center Autenticación
             p.tex-center Se confirma la identidad del emisor y del receptor, así como el destino/origen de la información se confirma.
             <br>
 
@@ -111,7 +111,7 @@
           .col-lg-6
             .cajon.color-acento-contenido.p-3
               h5 EN LOS SISTEMAS POR TRANSPOSICIÓN
-              p Los elementos del texto simple (por ejemplo, una letra, una palabra o una cadena de símbolos) se reordenan sin que cambie la identidad de los elementos, 
+              p Los elementos del texto simple (por ejemplo, una letra, una palabra o una cadena de símbolos) se reordenan sin que cambie la identidad de los elementos. 
         .row.justify-content-center.align-items-center.p-3
           .col-lg-6.mb-3
             img(src='@/assets/curso/tema1/img18.png')
@@ -124,7 +124,7 @@
       p Se conoce como cifrado:
       .col-lg-10  
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-          p.mb-0 <strong>Figura 3</strong> Tipos de cifrado
+          p.mb-0 <strong>Figura 3</strong> <em>Tipos de cifrado</em>
           
         figure.mb-5(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img19.svg') 
@@ -170,14 +170,14 @@
         .col-md-12.col-12.mb-4.mb-md-0
           p El cifrado AES fue establecido por el Instituto Nacional de Estándares y Tecnología de los Estados Unidos (NIST) en 2001 y su objetivo es ofrecer una especificación para la encriptación de datos electrónicos.
 
-          p Los desarrolladores del AES son dos criptógrafos belgas: Joan Deamen y Vincent Rijmen; se sabe que el dúo ha propuesto su cifrado en bloque al Instituto Nacional de Estándares y Tecnología durante el proceso de selección de un AES. Para seleccionar un AES seguro, el NIST consideró tres diferentes bloques de cifrado de la familia de cifrado Rijndael. Estos tres cifrados seleccionados eran todos de 128 bits, pero las longitudes de sus claves eran de 128, 192 y 265 bits.
+          p Los desarrolladores del AES son dos criptógrafos belgas: Joan Deamen y Vincent Rijmen; se sabe que el dúo ha propuesto su cifrado en bloque al Instituto Nacional de Estándares y Tecnología durante el proceso de selección de un AES. Para seleccionar un AES seguro, el NIST consideró tres diferentes bloques de cifrado de la familia de cifrado Rijndael. Estos tres cifrados seleccionados eran todos de 128 <em>bits</em>, pero las longitudes de sus claves eran de 128, 192 y 265 <em>bits</em>.
           p Al final, se seleccionó el cifrado en bloque desarrollado por Rijmen y Daemen. Este AES fue adoptado por primera vez en los Estados Unidos, pero con el tiempo se convirtió en la corriente principal en todo el mundo; el AES se caracteriza por ser un cifrado en bloque simétrico, en otras palabras, utiliza la misma clave para el cifrado y el descifrado. 
         .col-12.col-md-9
           figure
             img(src='@/assets/curso/tema1/img25.svg')
       .row(titulo="Estándar de encriptación de datos (DES)").justify-content-center
         .col-md-8.col-11.mb-4.mb-md-0
-          p DES es el nombre del estándar FIPS (Federal Information Processing Standard) 46-3, el cual describe el algoritmo de cifrado de datos (DEA), que es un sistema criptográfico simétrico originalmente diseñado para implementación en el hardware; también es usado para encriptación de usuario simple para almacenar datos en el disco de forma encriptada, un algoritmo de cifrado en bloque que toma texto plano en bloques de 64 bits y los convierte en texto cifrado utilizando claves de 48 bits.
+          p DES es el nombre del estándar FIPS (Federal Information Processing Standard) 46-3, el cual describe el algoritmo de cifrado de datos (DEA), que es un sistema criptográfico simétrico originalmente diseñado para implementación en el hardware; también es usado para encriptación de usuario simple para almacenar datos en el disco de forma encriptada, un algoritmo de cifrado en bloque que toma texto plano en bloques de 64 <em>bits</em> y los convierte en texto cifrado utilizando claves de 48 <em>bits</em>.
         .col-md-3.col-6
           figure
             img(src='@/assets/curso/tema1/img26.png')
@@ -192,10 +192,10 @@
                   | El RC4 es un cifrado de flujo de tamaño de clave variable, con operaciones orientadas a los bytes. El algoritmo utiliza una permutación aleatoria para los datos.
                 li.mb-3
                   .lista-candado
-                  | RC5 es un algoritmo parametrizado, que implementa un bloque de 32, 64 o 128 bits, un tamaño de clave variable y un número variable de rondas.
+                  | RC5 es un algoritmo parametrizado, que implementa un bloque de 32, 64 o 128 <em>bits</em>, un tamaño de clave variable y un número variable de rondas.
                 li
                   .lista-candado
-                  | El RC6 utiliza el RC5 con una suma de una multiplicación entera e implementando los cuatro registros de trabajo de 4 bits en lugar de los dos registros de 2 bits del RC5.
+                  | El RC6 utiliza el RC5 con una suma de una multiplicación entera e implementando los cuatro registros de trabajo de 4 <em>bits</em> en lugar de los dos registros de 2 <em>bits</em> del RC5.
           p Estas soluciones de encriptación se aplican ampliamente en algunas áreas, incluyendo sitios web basados en Joomla CMS y algunas otras soluciones.
         .col-md-4.col-6
           figure
@@ -210,16 +210,16 @@
             figure.mb-5
               img.center(src='@/assets/curso/tema1/img29.svg')
         .col-lg-12.mb-5   
-          p Un certificado de la DSA facilita el cumplimiento de las normas gubernamentales, ya que está avalado por los organismos federales, incluido el inminente paso a longitudes de clave de 2048 bits, incluso puede ejecutar RSA y DSA simultáneamente para mejorar aún más su seguridad, los servidores Apache, por ejemplo, pueden ejecutar los certificados RSA y DSA simultáneamente en un solo servidor web, esto beneficiará a las empresas que buscan maximizar el alcance de su ecosistema para su correspondencia comercial.
+          p Un certificado de la DSA facilita el cumplimiento de las normas gubernamentales, ya que está avalado por los organismos federales, incluido el inminente paso a longitudes de clave de 2048 <em>bits</em>, incluso puede ejecutar RSA y DSA simultáneamente para mejorar aún más su seguridad, los servidores Apache, por ejemplo, pueden ejecutar los certificados RSA y DSA simultáneamente en un solo servidor web, esto beneficiará a las empresas que buscan maximizar el alcance de su ecosistema para su correspondencia comercial.
       .row.mb-5(titulo="RSA (Rivest Shamir Aldeman)")
         .col-lg-12
           p.mb-5 En la siguiente infografía, puede revisar el concepto
           img(src='@/assets/curso/tema1/img30.png').mb-5 
-          p Como la mayoría de los criptosistemas, la seguridad de la RSA depende de cómo se implementa y se utiliza. Un factor importante es el tamaño de la llave, cuanto mayor es el número de bits de una llave (esencialmente la longitud de la misma), más difícil es romperla mediante ataques como la fuerza bruta y el factoraje.
-          p Dado que los algoritmos de clave asimétrica como RSA pueden romperse mediante factorización de enteros, mientras que los algoritmos de clave simétrica como AES no pueden, las claves RSA necesitan ser mucho más largas para lograr el mismo nivel de seguridad. Actualmente, el mayor tamaño de clave que ha sido factorizado es de 768 bits de largo, esto fue hecho por un equipo de académicos durante un período de dos años, utilizando cientos de máquinas.
-          p Dado que la factorización se completó a finales de 2009 y la potencia de computación ha crecido significativamente desde entonces, se puede asumir que un intento de intensidad similar podría ahora factorizar una clave RSA mucho más grande; a pesar de esto, el tiempo y los recursos necesarios para este tipo de ataque lo pone fuera del alcance de la mayoría de los hackers y en el ámbito de los estados nacionales. La mejor longitud de la clave a utilizar dependerá de su modelo de amenaza individual. El Instituto Nacional de Estándares y Tecnología recomienda un tamaño mínimo de clave de 2048 bits, pero también se utilizan claves de 4096 bits en algunas situaciones en las que el nivel de amenaza es mayor.
-          p El factoraje es sólo una forma en la que el RSA puede romperse, otros ataques tienen el potencial de romper el cifrado con una cantidad menor de recursos, pero estos dependen de la aplicación y otros factores, no necesariamente del propio RSA.
-      .row.mb-5(titulo="Funciones de resumen (Bash de una vía)")
+          p Como la mayoría de los criptosistemas, la seguridad de la RSA depende de cómo se implementa y se utiliza. Un factor importante es el tamaño de la llave, cuanto mayor es el número de <em>bits</em> de una llave (esencialmente la longitud de la misma), más difícil es romperla mediante ataques como la fuerza bruta y el factoraje.
+          p Dado que los algoritmos de clave asimétrica como RSA pueden romperse mediante factorización de enteros, mientras que los algoritmos de clave simétrica como AES no pueden, las claves RSA necesitan ser mucho más largas para lograr el mismo nivel de seguridad. Actualmente, el mayor tamaño de clave que ha sido factorizado es de 768 <em>bits</em> de largo, esto fue hecho por un equipo de académicos durante un período de dos años, utilizando cientos de máquinas.
+          p Dado que la factorización se completó a finales de 2009 y la potencia de computación ha crecido significativamente desde entonces, se puede asumir que un intento de intensidad similar podría ahora factorizar una clave RSA mucho más grande; a pesar de esto, el tiempo y los recursos necesarios para este tipo de ataque lo pone fuera del alcance de la mayoría de los hackers y en el ámbito de los estados nacionales. La mejor longitud de la clave a utilizar dependerá de su modelo de amenaza individual. El Instituto Nacional de Estándares y Tecnología recomienda un tamaño mínimo de clave de 2048 <em>bits</em>, pero también se utilizan claves de 4096 <em>bits</em> en algunas situaciones en las que el nivel de amenaza es mayor.
+          p El factoraje es solo una forma en la que el RSA puede romperse, otros ataques tienen el potencial de romper el cifrado con una cantidad menor de recursos, pero estos dependen de la aplicación y otros factores, no necesariamente del propio RSA.
+      .row.mb-5(titulo="Funciones de resumen (<em>Bash</em> de una vía)")
         .col-lg-12-mb-5
           p.mb-5 A continuación, se presenta en qué consisten las funciones de resumen:  
           img(src='@/assets/curso/tema1/img31.svg')
@@ -229,7 +229,7 @@
           img(src='@/assets/curso/tema1/img32.svg')
       .row.mb-5(titulo="Algoritmo de Hashing Seguro (SHA)")
         .col-12.col-lg-12-mb-5
-          p.mb-0 Los algoritmos <em>Secure Hash</em>, también conocidos como SHA, son una familia de funciones criptográficas diseñadas para mantener los datos seguros, funcionan transformando los datos mediante una función <em>hash</em>: un algoritmo que consiste en operaciones de bits, adiciones modulares y funciones de compresión. 
+          p.mb-0 Los algoritmos <em>Secure Hash</em>, también conocidos como SHA, son una familia de funciones criptográficas diseñadas para mantener los datos seguros, funcionan transformando los datos mediante una función <em>hash</em>: un algoritmo que consiste en operaciones de <em>bits</em>, adiciones modulares y funciones de compresión. 
         
         .row.justify-content-center.align-items-center.p-3
           .col-lg-12
@@ -255,7 +255,7 @@
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/tema1/img36.png' alt='AvatarTop')
               .tarjeta.BG14
-                p.mb-0.p-3 Esto es útil en caso de que un atacante hackee la base de datos, ya que sólo encontrará las funciones de <em>hash</em> y no las contraseñas reales, de modo que, si introdujera el valor de <em>hash</em> como contraseña, la función de <em>hash</em> la convertiría en otra cadena y posteriormente denegaría el acceso. 
+                p.mb-0.p-3 Esto es útil en caso de que un atacante hackee la base de datos, ya que solo encontrará las funciones de <em>hash</em> y no las contraseñas reales, de modo que, si introdujera el valor de <em>hash</em> como contraseña, la función de <em>hash</em> la convertiría en otra cadena y posteriormente denegaría el acceso. 
           .col-12
             p Además, las SHA exhiben el efecto de avalancha, en el que la modificación de muy pocas letras que se cifran provoca un gran cambio en la salida; o, por el contrario, cadenas drásticamente diferentes producen valores de <em>hash</em> similares. Este efecto hace que los valores <em>hash</em> no den ninguna información sobre la cadena de entrada, como su longitud original. Además, los valores de <em>hash</em> también se utilizan para detectar la manipulación de los datos por parte de los atacantes, en la que, si un archivo de texto se modifica ligeramente y apenas se nota, el valor de <em>hash</em> del archivo modificado será diferente del valor de <em>hash</em> del archivo original, y la manipulación será bastante notable.
 
@@ -355,19 +355,19 @@
             figure.mb-4.mtN01
               img.w-50.mx-auto(src='@/assets/curso/tema1/img45.png', alt='')(data-aos="fade-right")        
           h4.text-center.mb-3 Confidencialidad       
-          p El cifrado de disco es utilizado para proteger la confidencialidad de los datos almacenados en un disco de computador:Volúmenes ocultos, Privacidad, Contraseña, Esteganografía
+          p El cifrado de disco es utilizado para proteger la confidencialidad de los datos almacenados en un disco de computador: volúmenes ocultos, privacidad, contraseña, esteganografía.
         .col-md-4
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-5.mtN01
               img.w-50.mx-auto(src='@/assets/curso/tema1/img46.png', alt='')(data-aos="fade-right")        
           h4.text-center.mb-3 Cifrado     
-          p El cifrado de disco trabaja en forma similar al cifrado de un mensaje de texto y protege los datos incluso cuando el sistema operativo no está activo
+          p El cifrado de disco trabaja en forma similar al cifrado de un mensaje de texto y protege los datos incluso cuando el sistema operativo no está activo.
         .col-md-4
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-4.mtN01
               img.w-50.mx-auto(src='@/assets/curso/tema1/img47.svg', alt='')(data-aos="fade-right")        
           h4.text-center.mb-3 Protección       
-          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: DVD, Copias de seguridad, Blueray
+          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: dvd, copias de seguridad, Blueray.
       .row 
         .col-lg-12
           p La expresión cifrado de disco completo (FDE) significa que todo lo que hay en el disco está cifrado, pero el registro de arranque maestro (MBR), o un área similar de un disco de arranque, con el código que inicia la secuencia de carga del sistema operativo, no está cifrado. Algunos sistemas de encriptación de disco completo basados en hardware pueden realmente encriptar un disco de arranque completo, incluyendo el MBR.
