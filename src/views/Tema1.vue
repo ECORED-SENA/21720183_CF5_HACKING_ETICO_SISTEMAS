@@ -367,7 +367,7 @@
             figure.mb-4.mtN01
               img.w-50.mx-auto(src='@/assets/curso/tema1/img47.svg', alt='')(data-aos="fade-right")        
           h4.text-center.mb-3 Protección       
-          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: dvd, copias de seguridad, Blueray.
+          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: dvd, copias de seguridad, <em>blueray</em>.
       .row 
         .col-lg-12
           p La expresión cifrado de disco completo (FDE) significa que todo lo que hay en el disco está cifrado, pero el registro de arranque maestro (MBR), o un área similar de un disco de arranque, con el código que inicia la secuencia de carga del sistema operativo, no está cifrado. Algunos sistemas de encriptación de disco completo basados en hardware pueden realmente encriptar un disco de arranque completo, incluyendo el MBR.
