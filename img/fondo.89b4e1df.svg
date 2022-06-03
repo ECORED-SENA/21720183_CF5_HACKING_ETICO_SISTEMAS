@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1329.414" height="727.414" viewBox="0 0 1329.414 727.414">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.109" stop-color="#eaddfd"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_112236" data-name="Grupo 112236" transform="translate(1.414 1.414)">
+    <g id="Grupo_112010" data-name="Grupo 112010">
+      <rect id="Rectángulo_37420" data-name="Rectángulo 37420" width="1328" height="726" fill="url(#linear-gradient)"/>
+      <g id="Grupo_112007" data-name="Grupo 112007">
+        <path id="Trazado_172661" data-name="Trazado 172661" d="M-11844.333-11626.979l61.007,62.271v14.258l46.359,46.362" transform="translate(11844.337 11628.51)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g id="Elipse_4064" data-name="Elipse 4064" transform="translate(104.983 122.169)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4065" data-name="Elipse 4065" transform="translate(137.705 55.702)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4071" data-name="Elipse 4071" transform="translate(56.325 123.675)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4066" data-name="Elipse 4066" transform="translate(177.585 47.521)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4067" data-name="Elipse 4067" transform="translate(179.63 157.958)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4068" data-name="Elipse 4068" transform="translate(185.766 134.439)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4069" data-name="Elipse 4069" transform="translate(69.193 25.025)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <g id="Elipse_4070" data-name="Elipse 4070" transform="translate(102.938 52.634)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+          <circle cx="6.135" cy="6.135" r="6.135" stroke="none"/>
+          <circle cx="6.135" cy="6.135" r="5.135" fill="none"/>
+        </g>
+        <path id="Trazado_172662" data-name="Trazado 172662" d="M-11917.31-11628.475l146.653,146.948h13.1l13.537,13.535" transform="translate(11926.017 11628.475)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_172663" data-name="Trazado 172663" d="M-11875.909-11628.475l54.677,54.679,3.6,3.6" transform="translate(11957.291 11628.475)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_172666" data-name="Trazado 172666" d="M-11875.909-11628.475l54.677,54.679,3.6,3.6" transform="translate(11875.909 11696.446)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_172664" data-name="Trazado 172664" d="M-11915.309-11628.475l15.93,15.929v11.563l21.821,21.825" transform="translate(12057.506 11628.475)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Trazado_172665" data-name="Trazado 172665" d="M-11944.7-11566.889l30.742,30.746h16.143l49.736,49.734" transform="translate(12058.083 11629.862)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
