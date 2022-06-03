@@ -19,7 +19,7 @@
       p.mb-0 Concepto de criptografía
 
     figure.mb-5(data-aos="fade-right")
-      img(src='@/assets/curso/tema1/img01.svg')  
+      img(src='@/assets/curso/tema1/img01.svg')
     
     .row.justify-content-center
       .col-lg-10
@@ -28,9 +28,9 @@
       .col-lg-10.mb-5(data-aos="fade-right")
         .cajon.color-primario
           .row.align-items-center.p-4
-            .col-12.col-lg-8
-              p.mb-0 <b>¿Cuál es el problema?</b> Si el mensaje es interceptado, un tercero tiene todo lo necesario para descifrar y leer el mensaje. Para resolver este problema, los criptólogos diseñaron <b>el sistema asimétrico o de "clave pública"</b>; en este caso, cada usuario tiene dos claves: <b>una pública y otra privada</b>; los remitentes solicitan la clave pública de su destinatario, encriptan el mensaje y lo envían, cuando llega el mensaje, solo la clave privada del destinatario lo descifra, lo que significa que el robo no sirve de nada sin la correspondiente.
-            .col-12.col-lg-4
+            .col-11.col-lg-8
+              p.mb-0 <b>¿Cuál es el problema?</b> Si el mensaje es interceptado, un tercero tiene todo lo necesario para descifrar y leer el mensaje. Para resolver este problema, los criptólogos diseñaron <b>el sistema asimétrico o de "clave pública"</b>; en este caso, cada usuario tiene dos claves: <b>una pública y otra privada</b>; los remitentes solicitan la clave pública de su destinatario, encriptan el mensaje y lo envían, cuando llega el mensaje, solo la clave privada del destinatario lo descifra, lo que significa que el robo no sirve de nada sin la correspondiente clave privada.
+            .col-lg-3
               img(src='@/assets/curso/tema1/img02.png')
     
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
@@ -85,14 +85,14 @@
 
     .row.align-items-center.mb-3
       .col-lg-2.col-md-6.col-6(data-aos="fade-right")
-        img(src='@/assets/curso/tema1/img12.png')  
+        img(src='@/assets/curso/tema1/img12.png')
     .row.justify-content-center
       p Se conoce como cifrado:
       .col-lg-8  
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           p.mb-0 <strong>Figura 2</strong> Cifrado
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img13.svg')  
+          img(src='@/assets/curso/tema1/img13.svg')
       p A continuación, se presenta un breve tratamiento de los cifrados, para un tratamiento completo.
     .BGIMG02.mb-5 
       SlyderA(tipo="b")(data-aos="fade-right")
@@ -127,14 +127,13 @@
           p.mb-0 <strong>Figura 3</strong> <em>Tipos de cifrado</em>
           
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img19.svg') 
-
+          img(src='@/assets/curso/tema1/img19.svg')
     .row.align-items-center.mb-5
       .col-lg-7(data-aos="fade-right")
         p Se han utilizado comúnmente dispositivos o máquinas de cifrado para cifrar y descifrar mensajes. El primer dispositivo de cifrado parece haber sido empleado por los antiguos griegos alrededor del año 400 a.C. para las comunicaciones secretas entre los comandantes militares. Este dispositivo, llamado la guadaña, consistía en un bastón cónico alrededor del cual se envolvía en espiral un trozo de pergamino inscrito con el mensaje, cuando se desenvolvía, el pergamino llevaba un incomprensible juego de letras, pero cuando se envolvía alrededor de otro bastón de idénticas proporciones, el texto original reaparecía. 
         p Otros dispositivos simples conocidos como discos cifrados fueron utilizados por los gobiernos europeos para las comunicaciones diplomáticas a finales de 1400. Estos dispositivos consistían en dos círculos concéntricos giratorios, ambos con una secuencia de 26 letras; un disco se usaba para seleccionar las letras de texto plano, mientras que el otro se usaba para el componente de cifrado correspondiente.
       .col-lg-5.p-0(data-aos="fade-left")
-        img(src='@/assets/curso/tema1/img20.png') 
+        img(src='@/assets/curso/tema1/img20.png')
     
     separador
 
@@ -155,7 +154,7 @@
             h4 Funciones <em>hash</em>
             p No hay uso de ninguna clave en este algoritmo. Un valor <em>hash</em> con longitud fija se calcula según el texto plano, lo que hace imposible que el contenido del texto plano se recupere. Muchos sistemas operativos utilizan funciones <em>hash</em> para encriptar las contraseñas.
           .col-lg-6
-            img(src='@/assets/curso/tema1/img22.svg') 
+            img(src='@/assets/curso/tema1/img22.svg')
         .row.justify-content-center.align-items-center.p-5
           .col-lg-5.mb-3
             h4 Criptografía de clave asimétrica
@@ -214,7 +213,7 @@
       .row.mb-5(titulo="RSA (Rivest Shamir Aldeman)")
         .col-lg-12
           p.mb-5 En la siguiente infografía, puede revisar el concepto
-          img(src='@/assets/curso/tema1/img30.png').mb-5 
+          img(src='@/assets/curso/tema1/img30.png').mb-5
           p Como la mayoría de los criptosistemas, la seguridad de la RSA depende de cómo se implementa y se utiliza. Un factor importante es el tamaño de la llave, cuanto mayor es el número de <em>bits</em> de una llave (esencialmente la longitud de la misma), más difícil es romperla mediante ataques como la fuerza bruta y el factoraje.
           p Dado que los algoritmos de clave asimétrica como RSA pueden romperse mediante factorización de enteros, mientras que los algoritmos de clave simétrica como AES no pueden, las claves RSA necesitan ser mucho más largas para lograr el mismo nivel de seguridad. Actualmente, el mayor tamaño de clave que ha sido factorizado es de 768 <em>bits</em> de largo, esto fue hecho por un equipo de académicos durante un período de dos años, utilizando cientos de máquinas.
           p Dado que la factorización se completó a finales de 2009 y la potencia de computación ha crecido significativamente desde entonces, se puede asumir que un intento de intensidad similar podría ahora factorizar una clave RSA mucho más grande; a pesar de esto, el tiempo y los recursos necesarios para este tipo de ataque lo pone fuera del alcance de la mayoría de los hackers y en el ámbito de los estados nacionales. La mejor longitud de la clave a utilizar dependerá de su modelo de amenaza individual. El Instituto Nacional de Estándares y Tecnología recomienda un tamaño mínimo de clave de 2048 <em>bits</em>, pero también se utilizan claves de 4096 <em>bits</em> en algunas situaciones en las que el nivel de amenaza es mayor.
@@ -320,7 +319,7 @@
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
               p.mb-0 <strong>Figura 5</strong> Clave pública
             figure.mb-5(data-aos="fade-right")
-              img(src='@/assets/curso/tema1/img41.svg') 
+              img(src='@/assets/curso/tema1/img41.svg')
   .container.BG13.px-4.pt-4.pt-md-4.px-md-5
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-10
@@ -331,14 +330,14 @@
   .container.BGIMG01.px-4.pt-4.pt-md-4.px-md-5
     .row.align-items-center
       .col-lg-2.col-md-6.col-6(data-aos="fade-right").mb-3
-        img(src='@/assets/curso/tema1/img44.png')  
+        img(src='@/assets/curso/tema1/img44.png')
     .row.justify-content-center
       p SSL es el acrónimo de Secure Sockets Layer (capa de sockets seguros), la tecnología estándar para mantener segura una conexión a Internet, así como para proteger cualquier información confidencial que se envía entre dos sistemas e impedir que los delincuentes lean y modifiquen cualquier dato que se transfiera, incluida información que pudiera considerarse personal. Los dos sistemas pueden ser un servidor y un cliente (por ejemplo, un sitio web de compras y un navegador) o de servidor a servidor (por ejemplo, una aplicación con información que puede identificarse como personal o con datos de nóminas). 
       .col-12.col-lg-10
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
          p.mb-0 <strong>Figura 6</strong> Certificado SSL
         figure.mb-5(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img43.svg')  
+          img(src='@/assets/curso/tema1/img43.svg')
       .col-12.col-lg-10
         p Esto lo lleva a cabo asegurándose de que todos los datos que se transfieren entre usuarios y sitios web o entre dos sistemas sean imposibles de leer. Utiliza algoritmos de cifrado para codificar los datos que se transmiten e impedir que los hackers los lean al enviarlos a través de la conexión. Esta información podría ser cualquier dato confidencial o personal, por ejemplo, números de tarjeta de crédito y otros datos bancarios, nombres y direcciones.
 
@@ -353,21 +352,21 @@
         .col-md-4(data-aos="fade-left")
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-4.mtN01
-              img.w-50.mx-auto(src='@/assets/curso/tema1/img45.png', alt='')(data-aos="fade-right")        
+              img.w-50.mx-auto(src='@/assets/curso/tema1/img45.png', alt='')(data-aos="fade-right")
           h4.text-center.mb-3 Confidencialidad       
           p El cifrado de disco es utilizado para proteger la confidencialidad de los datos almacenados en un disco de computador: volúmenes ocultos, privacidad, contraseña, esteganografía.
         .col-md-4
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-5.mtN01
-              img.w-50.mx-auto(src='@/assets/curso/tema1/img46.png', alt='')(data-aos="fade-right")        
+              img.w-50.mx-auto(src='@/assets/curso/tema1/img46.png', alt='')(data-aos="fade-right")
           h4.text-center.mb-3 Cifrado     
           p El cifrado de disco trabaja en forma similar al cifrado de un mensaje de texto y protege los datos incluso cuando el sistema operativo no está activo.
         .col-md-4
           .BG04.p-4.mb-4.br01.mtO01
             figure.mb-4.mtN01
-              img.w-50.mx-auto(src='@/assets/curso/tema1/img47.svg', alt='')(data-aos="fade-right")        
+              img.w-50.mx-auto(src='@/assets/curso/tema1/img47.svg', alt='')(data-aos="fade-right")
           h4.text-center.mb-3 Protección       
-          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: dvd, copias de seguridad, <em>blueray</em>.
+          p Con el uso de un programa de cifrado para el disco, se puede salvaguardar cualquier información para quemas sobre el disco y conservarla de caer en manos equivocadas: dvd, copias de seguridad, <em>bluray</em>.
       .row 
         .col-lg-12
           p La expresión cifrado de disco completo (FDE) significa que todo lo que hay en el disco está cifrado, pero el registro de arranque maestro (MBR), o un área similar de un disco de arranque, con el código que inicia la secuencia de carga del sistema operativo, no está cifrado. Algunos sistemas de encriptación de disco completo basados en hardware pueden realmente encriptar un disco de arranque completo, incluyendo el MBR.
@@ -385,7 +384,7 @@
               h4 Herramienta de cifrado de datos: BitLocker
               p BitLocker es una característica de cifrado integrada en equipos que ejecutan Windows 10 Pro; si ejecuta Windows 10 Home no podrá usar BitLocker. Crea un entorno seguro para sus datos sin necesidad de realizar ningún esfuerzo adicional por su parte. De hecho, una vez que se configura.
             .col-lg-7
-              img(src='@/assets/curso/tema1/img48.svg')  
+              img(src='@/assets/curso/tema1/img48.svg')
       .row.justify-content-center.align-items-center.mb-5  
         .col-lg-12-mb-5
           h4  Aquí están otros enlaces con algunas herramientas de criptoanálisis 
