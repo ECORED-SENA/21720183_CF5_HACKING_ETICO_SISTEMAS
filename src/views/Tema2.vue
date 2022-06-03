@@ -10,7 +10,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right") 
         .col-lg-6.mb-3
           figure.m-0
-            img(src="@/assets/curso/tema2/img01.png")(data-aos="fade-right") 
+            img(src="@/assets/curso/tema2/img01.png")(data-aos="fade-right")
         .col-lg-6
           p.mb-4 En las pruebas de penetración, la redacción de informes es una tarea exhaustiva que incluye la metodología, los procedimientos, la explicación adecuada del contenido y el diseño del informe, un ejemplo detallado del informe de la prueba y la experiencia personal del probador. Una vez preparado el informe, se comparte entre el personal directivo superior y el equipo técnico de las organizaciones objetivo; si en el futuro surgiera algún tipo de necesidad de este tipo, este informe se utiliza como referencia.
           div.p-4.mb-4(style="background-color: white") 
@@ -26,9 +26,9 @@
       .col-lg-7(data-aos="fade-right")
         p.mb-0 La planificación del informe comienza con los objetivos, que ayudan a los lectores a entender los puntos principales de las pruebas de penetración, esta parte describe por qué se realizan las pruebas, cuáles son los beneficios de las pruebas, con bolígrafo, etc. En segundo lugar, la planificación del informe también incluye el tiempo empleado en las pruebas, las cuales son consignadas en diferentes tipos de reportes que se deben entregar, los cuales se clasifican en:
       .col-lg-3(data-aos="fade-left").mb-5
-        img(src='@/assets/curso/tema2/img02.png')(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2/img02.png')(data-aos="fade-right")
       .col-lg-10
-        img(src='@/assets/curso/tema2/img03.svg')(data-aos="fade-right") 
+        img(src='@/assets/curso/tema2/img03.svg')(data-aos="fade-right")
 
     separador
 
@@ -45,7 +45,7 @@
             ImagenInfografica.color-secundario
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema2/img04.svg')(data-aos="fade-right")              
+                  img(src='@/assets/curso/tema2/img04.svg')(data-aos="fade-right")
               .tarjeta.p-4(x="8.94%" y="28.5%" numero="")               
                 p.mb-0 Describe el propósito general y los beneficios de las pruebas, con bolígrafo.
 
@@ -68,19 +68,29 @@
       p.m-0.mb-5 Para poder entregar a las organizaciones los hallazgos encontrados en las pruebas de penetración realizadas a sus sistemas, se debe de tener en cuenta la siguiente estructura:
 
     .row.align-items-center.mb-4
-      
       .col-lg-7(data-aos="fade-right").mb-3
         LineaTiempoD.color-acento-botones
-          p(numero="1" titulo="Resumen ejecutivo del proyecto") El informe habla de la información del proyecto, sobre el propósito, objetivo y meta del proceso del test; resume el tema, los métodos de análisis, los resultados, las conclusiones, las recomendaciones y las limitaciones del informe. Aunque hay mucho que explicar sobre todo el proceso, el <em>pentester o hacker</em> ético debe mantenerlo conciso y preciso."SENA12345".
-          p(numero="2" titulo="Detalles del proyecto") En esta sección, el <em>pentester</em>, o hacker ético, describe el enfoque del proyecto, el proceso que utilizó y el alcance definido al inicio de la propuesta; detalla para qué ha sido contratado el <em>pentester</em> y establece las "reglas de combate", por ejemplo, qué es lo que probará, qué hará cuando lo haga, qué precauciones tomará, cómo se juzgará el éxito, a quién informará, etc.
+          .row(numero="1" titulo="Resumen ejecutivo del proyecto")
+            .col-lg-12
+             p El informe habla de la información del proyecto, sobre el propósito, objetivo y meta del proceso del test; resume el tema, los métodos de análisis, los resultados, las conclusiones, las recomendaciones y las limitaciones del informe. Aunque hay mucho que explicar sobre todo el proceso, el <em>pentester o hacker</em> ético debe mantenerlo conciso y preciso.
+          .row(numero="2" titulo="Detalles del proyecto") 
+            .col-lg-12
+              p En esta sección, el <em>pentester</em>, o hacker ético, describe el enfoque del proyecto, el proceso que utilizó y el alcance definido al inicio de la propuesta; detalla para qué ha sido contratado el <em>pentester</em> y establece las "reglas de combate", por ejemplo, qué es lo que probará, qué hará cuando lo haga, qué precauciones tomará, cómo se juzgará el éxito, a quién informará, etc.
           
-          p(numero="3" titulo="Información de la empresa") El informe también explica detalles de la organización, el tipo de negocio, los clientes a los que se dirige, el alcance del negocio y otra información legítima; incluye detalles de los miembros del equipo involucrados, sus calificaciones, funciones de trabajo, responsabilidades, etc. Gran parte de esto será opcional, ya que caerá en la información de acceso público. Sin embargo, algunos pueden ser incluidos, especialmente si esa información tiene que ver con el descubrimiento de vulnerabilidades posteriores que son explotadas posteriormente.
+          .row(numero="3" titulo="Información de la empresa")
+            .col-lg-12 
+              p El informe también explica detalles de la organización, el tipo de negocio, los clientes a los que se dirige, el alcance del negocio y otra información legítima; incluye detalles de los miembros del equipo involucrados, sus calificaciones, funciones de trabajo, responsabilidades, etc. Gran parte de esto será opcional, ya que caerá en la información de acceso público. Sin embargo, algunos pueden ser incluidos, especialmente si esa información tiene que ver con el descubrimiento de vulnerabilidades posteriores que son explotadas posteriormente.
           
-          p(numero="4" titulo="Enumeración de los riesgos en función de la gravedad") Para hacer un informe estructurado, enumere los hallazgos con base en su gravedad, se debe dar prioridad a las vulnerabilidades de alto riesgo y enumerarlas arriba, seguidas de los hallazgos de bajo riesgo.<br> El formato puede ser el siguiente: hallazgos, descripción, detalles, gravedad, recomendaciones.
-         
-          p(numero="5" titulo="Descargo de responsabilidad") Una liberación de responsabilidades es una parte muy importante de un informe. Al ser un tester, es posible que enumere las vulnerabilidades, explique sus consecuencias y recomiende su mitigación, en el ámbito dado, las herramientas y los factores externos definidos; estas consecuencias pueden resultar en caso de que cambie alguno de los factores influyentes; una cláusula de exención de responsabilidad al final del informe resume la responsabilidad y define los límites de la prueba de penetración.
+          .row(numero="4" titulo="Enumeración de los riesgos en función de la gravedad").p-3
+            .col-lg-12.col-md-5
+              p Para hacer un informe estructurado, enumere los hallazgos con base en su gravedad, se debe dar prioridad a las vulnerabilidades de alto riesgo y enumerarlas arriba, seguidas de los hallazgos de bajo riesgo.
+              p El formato puede ser el siguiente:  
+              img(src='@/assets/curso/tema2/img07.svg')
+          .row(numero="5" titulo="Descargo de responsabilidad") 
+            .col-lg-12
+              p Una liberación de responsabilidades es una parte muy importante de un informe. Al ser un tester, es posible que enumere las vulnerabilidades, explique sus consecuencias y recomiende su mitigación, en el ámbito dado, las herramientas y los factores externos definidos; estas consecuencias pueden resultar en caso de que cambie alguno de los factores influyentes; una cláusula de exención de responsabilidad al final del informe resume la responsabilidad y define los límites de la prueba de penetración.
       .col-lg-5.col-md-6.col-12(data-aos="fade-left")
-        img(src='@/assets/curso/tema2/img06.svg')      
+        img(src='@/assets/curso/tema2/img06.svg')
 
       
 </template>

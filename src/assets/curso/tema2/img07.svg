@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="609.312" height="124.724" viewBox="0 0 609.312 124.724">
+  <g id="Grupo_148954" data-name="Grupo 148954" transform="translate(2298 8667.826)">
+    <g id="Grupo_148953" data-name="Grupo 148953" transform="translate(0 -89.357)">
+      <g id="Rectángulo_673" data-name="Rectángulo 673" transform="translate(-2298 -8578.469)" fill="#fff" stroke="#e1e1e1" stroke-width="1">
+        <rect width="609.312" height="124.255" stroke="none"/>
+        <rect x="0.5" y="0.5" width="608.312" height="123.255" fill="none"/>
+      </g>
+      <rect id="Rectángulo_674" data-name="Rectángulo 674" width="609.312" height="5" transform="translate(-2298 -8578.469)" fill="#e01650"/>
+      <rect id="Rectángulo_675" data-name="Rectángulo 675" width="609.312" height="61" transform="translate(-2298 -8573.469)" fill="#e8e8e8"/>
+      <text id="Hallazgos" transform="translate(-2277.943 -8536.469)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Hallazgos</tspan></text>
+      <text id="Descripción" transform="translate(-2161.387 -8535.469)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Descripción</tspan></text>
+      <text id="Detalles" transform="translate(-2039.672 -8536.469)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Detalles</tspan></text>
+      <text id="Recomendaciones" transform="translate(-1840.846 -8535.469)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Recomendaciones</tspan></text>
+      <text id="Gravedad" transform="translate(-1940.264 -8535.469)" fill="#12263f" font-size="18" font-family="Roboto-Black, Roboto" font-weight="800"><tspan x="0" y="0">Gravedad</tspan></text>
+      <line id="Línea_52" data-name="Línea 52" y2="58.415" transform="translate(-2175.334 -8512.469)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_53" data-name="Línea 53" y2="58.415" transform="translate(-2050.44 -8512.469)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_54" data-name="Línea 54" y2="58.724" transform="translate(-1957.27 -8512.469)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+      <line id="Línea_508" data-name="Línea 508" y2="58.724" transform="translate(-1850.101 -8512.469)" fill="none" stroke="#e1e1e1" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

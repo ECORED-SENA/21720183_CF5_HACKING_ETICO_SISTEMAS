@@ -195,7 +195,7 @@ export default {
       referencia:
         'INCIBE. (2017). Amenaza vs vulnerabilidad, ¿sabes en qué se diferencian?',
       link:
-        'https://www.incibe.es/protege-tu-empresa/blog/amenaza-vs-vulnerabilidad-sabes-se-diferencian.',
+        'https://www.incibe.es/protege-tu-empresa/blog/amenaza-vs-vulnerabilidad-sabes-se-diferencian',
     },
     {
       referencia:
@@ -218,7 +218,7 @@ export default {
       referencia:
         'ReYDeS. (2015). Introducción a OSSTMM (Open Source Security Testing Methodology Manual). Alonso Caballero / ReyDeS.',
       link:
-        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual.',
+        'http://www.reydes.com/d/?q=Introduccion_a_OSSTMM_Open_Source_Security_Testing_Methodology_Manual',
     },
     {
       referencia:
